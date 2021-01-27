@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_page_thumbnails",
+  "info": {
+    "name": "thumbnail",
+    "icon": "photo-video",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "caption": {
+      "type": "string"
+    },
+    "picture": {
+      "model": "picture"
+    }
+  }
+}

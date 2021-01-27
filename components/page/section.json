@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_sections",
+  "info": {
+    "name": "section",
+    "icon": "newspaper",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "textblocks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.text-block"
+    },
+    "thumbnails": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.thumbnail"
+    }
+  }
+}

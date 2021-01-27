@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "advanced_photographies",
+  "info": {
+    "name": "Advanced Photography"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "body": {
+      "type": "dynamiczone",
+      "components": [
+        "page.banner",
+        "page.section",
+        "page.text-block",
+        "page.thumbnail"
+      ]
+    }
+  }
+}

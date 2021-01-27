@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/advanced-photography",
+      "handler": "advanced-photography.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/advanced-photography",
+      "handler": "advanced-photography.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/advanced-photography",
+      "handler": "advanced-photography.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
